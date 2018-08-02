@@ -1,0 +1,4 @@
+---
+  - hosts: localhost
+    tasks:
+      - file: path=/home/rps/pullmachine1.txt state=touch
